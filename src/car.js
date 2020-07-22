@@ -17,7 +17,7 @@ const Car = () => {
   });
   const speedUp = () => {
     const animation = getAnimation();
-    // animation.updatePlaybackRate(animation.playbackRate * 75);
+    animation.updatePlaybackRate(animation.playbackRate * 75);
   };
 
   return (
